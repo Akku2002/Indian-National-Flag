@@ -1,0 +1,107 @@
+/* I have used different types of selectors and position property. */
+
+html{
+    background-color:#000080;
+}
+
+h1,#footer{
+    width:40%;
+    margin:2% auto;
+    text-align:center;
+    font-family:Helvetica;
+    border:2px dotted #FFFFFF;
+    color:#FFFFFF;
+}
+
+span:nth-child(1){
+    color:#FF7722;
+}
+
+span:nth-child(2){
+    color:#FFFFFF;
+}
+
+span:nth-child(3){
+    color:#138808;
+}
+
+.indian-flag{
+    margin:0 25%;
+}
+.indian-flag>div{
+    width:100%;
+    height:10rem;
+}
+.indian-flag>div:first-child{
+    background-color:#FF7722;
+}
+.indian-flag>div:last-child{
+    background-color:#138808;
+}
+.indian-flag>div:nth-child(2){
+    background-color:#FFFFFF;
+}
+.indian-flag>div>div{
+    box-sizing:border-box;
+    width:10rem;
+    height:100%;
+    border-radius:50%;
+    border:2px solid #000080;
+    margin:0 auto;
+    position:relative
+
+}
+li{
+    list-style:none;
+    box-sizing:border-box;
+    width:100%;
+    border:1px solid #000080;
+    position:absolute;
+    top:50%;
+}
+li:nth-child(1){
+    transform:rotate(0deg);
+}
+li:nth-child(2){
+    transform:rotate(15deg);
+}
+li:nth-child(3){
+    transform:rotate(30deg);
+}
+li:nth-child(4){
+    transform:rotate(45deg);
+}
+li:nth-child(5){
+    transform:rotate(60deg);
+}
+li:nth-child(6){
+    transform:rotate(75deg);
+}
+li:nth-child(7){
+    transform:rotate(90deg);
+}
+li:nth-child(8){
+    transform:rotate(105deg);
+}
+li:nth-child(9){
+    transform:rotate(120deg);
+}
+li:nth-child(10){
+    transform:rotate(135deg);
+}
+li:nth-child(11){
+    transform:rotate(150deg);
+}
+li:nth-child(12){
+    transform:rotate(165deg);
+}
+@media (max-width:700px){
+    .indian-flag{
+        margin:0;
+    }
+    h1,#footer{
+        width:100%;
+        text-align:center;
+    }
+
+}
