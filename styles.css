@@ -103,5 +103,11 @@ li:nth-child(12){
         width:100%;
         text-align:center;
     }
+    .indian-flag>div{
+        height:5rem;
+    }
+    .indian-flag>div>div{
+        width:5rem;
+    }
 
 }
